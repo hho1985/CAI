@@ -35,9 +35,9 @@ namespace ConsoleApp30
 
             string cursomail = Convert.ToString(curso);
 
-            var fromAddress = new MailAddress("economicas.fce.cai@gmail.com", "Economicas FCE");
+            var fromAddress = new MailAddress("economicas*********@gmail.com", "Economicas FCE");
             var toAddress = new MailAddress(Mail, "To Name");
-            string fromPassword = "Trabajon5";
+            string fromPassword = "*******";
             string subject = "Comprobante de inscripción";
             string body = "El alumno " + Nombre + " "+ Apellido + " con Registro " + registro+ " se ha inscripto correctamente al curso " +cursomail +".";
 
